@@ -195,6 +195,58 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <div class="service ml-5" style="font-weight:bolder; font-size:20px; color: blue;">
         <p>The Team</p>
+        <div class="container d-flex flex-wrap justify-content-between" style="color: grey;">
+            <div class="anggota d-flex flex-column align-items-center">
+                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Alfonus Oky</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+            </div>
+            <div class="anggota d-flex flex-column align-items-center">
+                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Alfonus Oky</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+            </div>
+            <div class="anggota d-flex flex-column align-items-center">
+                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Alfonus Oky</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+            </div>
+            <div class="anggota d-flex flex-column align-items-center">
+                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Alfonus Oky</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+            </div>
+            <div class="anggota d-flex flex-column align-items-center">
+                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Alfonus Oky</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+            </div>
+            <div class="anggota d-flex flex-column align-items-center">
+                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Alfonus Oky</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+            </div>
+            <div class="anggota d-flex flex-column align-items-center">
+                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Alfonus Oky</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+            </div>
+            <div class="anggota d-flex flex-column align-items-center">
+                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Alfonus Oky</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+            </div>
+            <div class="anggota d-flex flex-column align-items-center">
+                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Alfonus Oky</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="service ml-5 mb-5" style="font-weight:bolder; font-size:20px; color: blue;">
+        <h1>Give Us a Call : 087-836-854-906</h1>
+        <h3>Inti Permata Regency Block F-05, Sapen, Mojolaban, Sukoharjo, Solo.</h3>
     </div>
 
     <footer style="display:flex; background-color:#070707; justify-content:space-between; font-size:12px;">
