@@ -61,11 +61,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('home') ?>">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('about') ?>">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('cdental') ?>">Cdental</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Cdental</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
@@ -91,24 +91,32 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
     </nav>
 
-	<div class="p-3" style="background-color: #3a62d8;">
+	<div class="p-4" style="background-color: #3a62d8;">
 		<div class="container d-flex flex-row align-items-center justify-content-between" style="color: white;">
-			<h1>About Us</h1>
-			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > About Us</h5>
+			<h2>Cdental – Software Rekam Medis dan Management Klinik Gigi</h2>
 		</div>
 	</div>
 
-   <div class="container">
+   <div class="container mt-5">
 		<div class="container">
 			<div class="d-flex container">
-				<img src="./images/about-us.png" alt="">
+				<img src="./images/logo-Cdental.jpg" alt="" style="width: 400px; height:auto;">
 			</div>
-			<p>Welcome to <b>Lecylia IT and Software.</b></p>
-			<p>Terimakasih sudah mengunjungi website resmi kami. Berikut sedikit perjalanan kami sebagai perusahaan di bidang IT dan Software dengan berbagai pengalaman yang kami peroleh.</p>
-			<p>Kami adalah perusahaan yang bergerak dalam bidang IT dan Software yang sudah mempunyai pengalaman sejak tahun 2007. Berawal menjadi Tim IT di perusahaan Textile terbesar se Jawa-Bali, Kami semakin mempunyai pengalaman yang sangat cukup di dunia IT, jaringan, dan maintenance komputer.</p>
-			<p>Ditahun 2009 Kami menjadi Guru IT dan Robotic di salah satu Sekolah International di Solo, menjadikan wawasan kami tentang dunia IT semakin luas dan bukan hanya di komputer dan jaringan saja, melainkan di dunia Design Grafis dan Robotic yang mana tidak semua orang IT memiliki ilmu ini.</p>
-			<p>Pada tahun 2011 kami mulai membuka usaha sendiri yang bergerak dibidang IT dan Software. dan kami menamakan perusahaan kami Lecylia IT and Software. Mulai dari sini, semua klient-klient kami yang dulu pernah menggunakan jasa kami dan mengetahui kami, mereka mulai menggunakan jasa kami untuk mengcover di bidang IT dan Software diperusahaan mereka.</p>
-			<p>Kami membuka usaha kerjasama bagi perusahaan yang membutuhkan IT support dan pembuatan software. Kami tunggu kerjasamanya.</p>
+			<p>Cdental Software adalah Dental Management Software yang kami buat untuk memenuhi kebutuhan para dokter gigi dan klinik gigi yang didalamnya terdapat banyak fitur yang sangat dibutuhkan seperti :  Database pasien dan dokter, Appointment, Stock Inventory Obat dan Alat, Payment, Treatment, Provider Share, Treatment Plant, 3D Graphical Tooth Chart, Patient Images, Backup and Restore database.</p>
+			<p>berikut kami jelaskan fungsi dari setiap fitur yang ada di Cdental dan di paling akhir dari sekilas tulisan ini ada tampilan video review tentang Cdental.</p>
+			<li>Data Pasien</li>
+            <p>Data pasien digunakan untuk menyimpan nama pasien, keluarga pasien, alamat, telp, foto pasien, dll. sehingga mempermudah dokter gigi ataupun klinik gigi untuk mencari data pasien.</p>
+            <div class="container d-flex justify-content-between flex-column align-items-center">
+                <img src="./images/pat.jpg" alt="" style="width: 600px; height:auto;">
+                <img src="./images/detail-patient.jpg" alt="" style="width: 600px; height:auto;">
+            </div>
+            <li>Appointments</li>
+            <p>Appointment pada Cdental Software ini sangat penting karena disini kita dapat mengatur pasien, membuat janjian, melihat ruangan mana yang kosong, melihat dokter siapa saja yang sedang praktek, jam berapa pasien harus datang, status pasien sudah dikerjakan ataupun masih menunggu, perkiraan lama pengerjaan, melihat nomer telp pasien dan data pasien untuk melakukan konfirmasi appointment, dll. Sehingga dibagian menu Appointment ini kita sangat akan terbantu dalam memanage pasien, dokter, ruangan dan waktu.</p>
+            <div class="container d-flex justify-content-between flex-column align-items-center">
+                <img src="./images/appt.jpg" alt="" style="width: 600px; height:auto;">
+            </div>
+            <li>Payment</li>
+            <p>Menu payment digunakan untuk melakukan pembayaran ketika pasien selesai melakukan treatment. pada menu ini kita juga bisa melihat history payment dari pasient dan juga hutang piutang dari suatu pasient itu tertulis disini, sehingga bisa membantu mengingatkan jika ada pasien yang masih kurang dalam pembayaran ataupun pasien yang kelebihan didalam pembayarannya. Karena di Cdental Software ini semua tertata rapi dan sangat terstruktur, sehingga dokter gigi maupun suster akan sangat terbantu.</p>
 			<p>Best Regards,</p>
 			<p><b>Lecylia IT and Software</b></p>
 		</div>

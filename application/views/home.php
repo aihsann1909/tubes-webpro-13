@@ -65,13 +65,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <a class="nav-link" href="<?= base_url('about') ?>">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cdental</a>
+                        <a class="nav-link" href="<?= base_url('cdental') ?>">Cdental</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#">Portofolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
