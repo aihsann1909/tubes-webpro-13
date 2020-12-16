@@ -59,7 +59,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <span class="mr-4">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('home') ?>">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="<?= base_url('home') ?>">Home</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="<?= base_url('about') ?>">About Us</a>
@@ -68,19 +68,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <a class="nav-link" href="<?= base_url('cdental') ?>">Cdental</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="<?= base_url('services') ?>">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Product</a>
-                    </li>
-					<li class="nav-item">
-                        <a class="nav-link" href="#">Support</a>
-                    </li>
-					<li class="nav-item">
-                        <a class="nav-link" href="#">Portofolio</a>
+                        <a class="nav-link" href="<?= base_url('product') ?>">Product</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="<?= base_url('support') ?>">Support</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('portofolio') ?>">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('contact') ?>">Contact Us</a>
                     </li>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
