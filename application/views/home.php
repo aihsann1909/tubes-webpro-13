@@ -197,49 +197,54 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <p>The Team</p>
         <div class="container d-flex flex-wrap justify-content-between" style="color: grey;">
             <div class="anggota d-flex flex-column align-items-center">
-                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
-                <h4>Alfonus Oky</h4>
+                <img src="./images/Alfonus.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Alfonus Oky, S.Kom</h4>
                 <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
             </div>
             <div class="anggota d-flex flex-column align-items-center">
-                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
-                <h4>Alfonus Oky</h4>
-                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+                <img src="./images/Caecilia.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Caecilia Novie, S.Kom</h4>
+                <p style="font-size: 13px; font-weight: lighter;">CO Founder and Administration</p>
             </div>
             <div class="anggota d-flex flex-column align-items-center">
-                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
-                <h4>Alfonus Oky</h4>
-                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+                <img src="./images/Lusia.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Lusia Herdiwati, S.E</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Accounting</p>
             </div>
             <div class="anggota d-flex flex-column align-items-center">
-                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
-                <h4>Alfonus Oky</h4>
-                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+                <img src="./images/Monica.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Monica Natalia, A.P.Kom</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Customer Service and Marketing</p>
             </div>
             <div class="anggota d-flex flex-column align-items-center">
-                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
-                <h4>Alfonus Oky</h4>
-                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+                <img src="./images/Yosafat.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Yosafat J.S, A.Md.T</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Dental Support Team Jabodetabek Karawang</p>
             </div>
             <div class="anggota d-flex flex-column align-items-center">
-                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
-                <h4>Alfonus Oky</h4>
-                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+                <img src="./images/Andi.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Andi</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Dental Support Team Semarang</p>
             </div>
             <div class="anggota d-flex flex-column align-items-center">
-                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
-                <h4>Alfonus Oky</h4>
-                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+                <img src="./images/Lucky.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Lucky H.</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Expert Printer and Scanner</p>
             </div>
             <div class="anggota d-flex flex-column align-items-center">
-                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
-                <h4>Alfonus Oky</h4>
-                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+                <img src="./images/Pascalius.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Pascalius Y.</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Expert CCTV, Networking and Cabling</p>
             </div>
             <div class="anggota d-flex flex-column align-items-center">
-                <img src="./images/alfonus.jpg" alt="" style="width: 250px; height: auto;">
-                <h4>Alfonus Oky</h4>
-                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+                <img src="./images/Yosua.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Yosua Andi S.</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Dental IT Support and Networking</p>
+            </div>
+            <div class="anggota d-flex flex-column align-items-center">
+                <img src="./images/Yeremia.jpg" alt="" style="width: 250px; height: auto;">
+                <h4>Yeremia Miliano</h4>
+                <p style="font-size: 13px; font-weight: lighter;">Dental IT Support and Networking</p>
             </div>
         </div>
     </div>
