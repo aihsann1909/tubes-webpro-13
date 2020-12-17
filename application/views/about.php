@@ -80,7 +80,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <a class="nav-link" href="<?= base_url('portofolio') ?>">Portofolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('contact') ?>">Contact Us</a>
+                        <a class="nav-link" href="<?= base_url('contact_us') ?>">Contact Us</a>
                     </li>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
