@@ -59,7 +59,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <span class="mr-4">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('home') ?>">Home</a>
+                        <a class="nav-link" href="<?= base_url('home') ?>">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('about') ?>">About Us</a>
@@ -67,20 +67,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('cdental') ?>">Cdental</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('services') ?>">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('product') ?>">Product</a>
                     </li>
-                    <li class="nav-item">
+					<li class="nav-item active">
                         <a class="nav-link" href="<?= base_url('support') ?>">Support</a>
                     </li>
 					<li class="nav-item">
                         <a class="nav-link" href="<?= base_url('portofolio') ?>">Portofolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('contact') ?>">Contact Us</a>
+                        <a class="nav-link" href="<?= base_url('contact_us') ?>">Contact Us</a>
                     </li>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -91,46 +91,43 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
     </nav>
 
-	<div class="p-4" style="background-color: #3a62d8;">
+	<div class="p-3" style="background-color: #3a62d8;">
 		<div class="container d-flex flex-row align-items-center justify-content-between" style="color: white;">
-            <h1>Services</h1>
-			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > Services</h5>
+			<h1>Support</h1>
+			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > Support</h5>
 		</div>
 	</div>
 
-   <div class="container mt-5">
-		<div class="container">
-			<p>Lecylia IT and Software menawarkan berbagai spesialisasi untuk memberi dukungan saat ini dan masa depan kebutuhan teknologi untuk Klinik Gigi dan perusahan Anda. Kami akan memberi dukungan kepada para dokter gigi untuk membangun Digital Dental Clinic dengan teknologi masa depan yang dapat membuat Klinik gigi anda maju dan berkembang.</p>
-            <p style="font-weight:bolder; font-size:20px; color: blue;">Spesialisasi Kami :</p>
-            <div class="service ml-5" >
-                <div class="container d-flex flex-wrap justify-content-between" style="color: grey;">
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/it-and-software.jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/dental-imaging.jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/software-developer.jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                </div>
+  
+  <br>
+
+    <div class="container">
+        <div class="container">
+            <div class="container text-center">
+                <img src="./images/customer.jpg" alt=""> 
             </div>
-            <p>Best Regards,</p>
-			<p><b>Lecylia IT and Software</b></p>
-		</div>
+            <br>
+            <p>Kami memberikan dukungan kepada semua klien kami supaya tidak ada kendala dalam menjalankan software kami maupun dalam menghubungi kami dan kami dapat dengan cepat menyelesaikan masalah yang terjadi dilapangan, karena dalam bidang IT yang paling penting adalah dukungan yang berkelanjutan supaya tidak terjadi hal-hal yang tidak diinginkan.</p>
+            <div class="container text-center" style="font-weight:bolder; font-size:20px; color: blue;">
+                <p> Lecylia IT and Software Support :</p>
+            </div>
+            <div class="container text-center" style="font-weight:bolder; font-size:20px; color: blue;">
+                <p> Telp/Sms/WA : 087-836-854-906 </p>
+            </div>
+            <div class="container text-center" style="font-weight:bolder; font-size:20px; color: blue;">
+                <p> Email : customer_service@lecylia.com / lecyliadentalit@gmail.com </p>
+            </div>
+            <p> Berikut software dukungan kami yang lainnya, Klik pada gambar untuk download :</p>
+            <li><a href="https://www.avast.com/free-antivirus-download" target="_blank"><img class="image" src="images/avast.jpg" width="250px" height="90px"></a><br></li>
+            <li><a href="https://www.teamviewer.com/en/?pid=google.tv.id_en_sn_desk_brand_teamviewer_ex.s.id&gclid=EAIaIQobChMI8pWX04LO2AIVwTUrCh1LYgp7EAAYASAAEgLVY_D_BwE" target="_blank"><img class="image" src="images/teamviewer.jpg" width="250px" height="90px"></a><br></li>
+            <li><a href="https://lecylia.com/chrome/" target="_blank"><img class="image" src="images/chrome.jpg" width="300px" height="150px"></a><br></li>
+            <li><a href="https://support.logi.com/hc/en-us#!/id_id/product/hd-webcam-c270/downloads" target="_blank"><img class="image" src="images/logitech.jpg" width="150px" height="150px"></a><br> <br><br><br></li>
+            <p>Untuk kode aktivasi avast dapat anda dapatkan dengan mengirim email ke kontak kami, dan kami akan kirimkan kode aktivasinya.</p>
+            <br><br><br><br>
+        </div>
    </div>
+
+
 
 
     <footer style="display:flex; background-color:#070707; justify-content:space-between; font-size:12px;">
@@ -150,7 +147,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         })
     </script>
 
-    <script src="https://kit.fontawesome.com/e730ef9261.js" crossorigin="anonymous"></script>
+    <script   script src="https://kit.fontawesome.com/e730ef9261.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>

@@ -59,7 +59,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <span class="mr-4">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('home') ?>">Home</a>
+                        <a class="nav-link" href="<?= base_url('home') ?>">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('about') ?>">About Us</a>
@@ -67,20 +67,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('cdental') ?>">Cdental</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('services') ?>">Services</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="<?= base_url('product') ?>">Product</a>
                     </li>
-                    <li class="nav-item">
+					<li class="nav-item">
                         <a class="nav-link" href="<?= base_url('support') ?>">Support</a>
                     </li>
 					<li class="nav-item">
                         <a class="nav-link" href="<?= base_url('portofolio') ?>">Portofolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('contact') ?>">Contact Us</a>
+                        <a class="nav-link" href="<?= base_url('contact_us') ?>">Contact Us</a>
                     </li>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -91,46 +91,58 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
     </nav>
 
-	<div class="p-4" style="background-color: #3a62d8;">
+	<div class="p-3" style="background-color: #3a62d8;">
 		<div class="container d-flex flex-row align-items-center justify-content-between" style="color: white;">
-            <h1>Services</h1>
-			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > Services</h5>
+			<h1>Product</h1>
+			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > Product</h5>
 		</div>
 	</div>
 
-   <div class="container mt-5">
-		<div class="container">
-			<p>Lecylia IT and Software menawarkan berbagai spesialisasi untuk memberi dukungan saat ini dan masa depan kebutuhan teknologi untuk Klinik Gigi dan perusahan Anda. Kami akan memberi dukungan kepada para dokter gigi untuk membangun Digital Dental Clinic dengan teknologi masa depan yang dapat membuat Klinik gigi anda maju dan berkembang.</p>
-            <p style="font-weight:bolder; font-size:20px; color: blue;">Spesialisasi Kami :</p>
-            <div class="service ml-5" >
-                <div class="container d-flex flex-wrap justify-content-between" style="color: grey;">
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="service ml-5">
+        <div class="container d-flex flex-wrap justify-content-between">
+            <div class="productt">
+                <img src="./images/dental.png" alt="" style="width: 200px; height: auto;">
+            </div>
+            <div class="anggota d-flex flex-column align-items-center">
+                <img src="./images/software.jpg" alt="" style="width: 200px; height: auto;">         
+            </div>
+            <div class="anggota d-flex flex-column align-items-center">
+                <img src="./images/hardware-copy.jpg" alt="" style="width: 200px; height: auto;">
+            </div>
+            <div class="container">
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="anggota d-flex flex-column align-items-center">
+                            <img src="./images/iphone.jpg" alt="" style="width: 200px; height: auto;">
+                        </div>
                     </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/it-and-software.jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/dental-imaging.jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/software-developer.jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
+                    <div class="col-md">
+                        <div class="anggota d-flex flex-column align-items-center">
+                            <img src="./images/cctv.jpg" alt="" style="width: 200px; height: auto;">
+                        </div>
                     </div>
                 </div>
             </div>
-            <p>Best Regards,</p>
-			<p><b>Lecylia IT and Software</b></p>
-		</div>
-   </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 
     <footer style="display:flex; background-color:#070707; justify-content:space-between; font-size:12px;">

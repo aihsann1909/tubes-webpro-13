@@ -41,9 +41,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
         </div>
         <div class="part-kanan mr-5">
-            <img src="" alt="facebook">
-            <img src="" alt="twitter">
-            <img src="" alt="instagram">
+            <a style="text-decoration:none; color:white;" href="#"><i class="fab fa-facebook-square"> Facebook</i></a>
+            <a style="text-decoration:none; color:white;" href="#"><i class="fab fa-twitter-square"> Twitter</i></a>
+            <a style="text-decoration:none; color:white;" href="#"><i class="fab fa-instagram-square"> Instagram</i></a>
         </div>
     </div>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #ffffff; font-size:15px;">
@@ -140,6 +140,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         })
     </script>
 
+    <script src="https://kit.fontawesome.com/e730ef9261.js" crossorigin="anonymous"></script>   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>

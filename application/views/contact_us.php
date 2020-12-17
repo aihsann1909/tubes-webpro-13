@@ -59,7 +59,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <span class="mr-4">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('home') ?>">Home</a>
+                        <a class="nav-link" href="<?= base_url('home') ?>">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('about') ?>">About Us</a>
@@ -67,20 +67,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('cdental') ?>">Cdental</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('services') ?>">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('product') ?>">Product</a>
                     </li>
-                    <li class="nav-item">
+					<li class="nav-item">
                         <a class="nav-link" href="<?= base_url('support') ?>">Support</a>
                     </li>
 					<li class="nav-item">
                         <a class="nav-link" href="<?= base_url('portofolio') ?>">Portofolio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('contact') ?>">Contact Us</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="<?= base_url('contact_us') ?>">Contact Us</a>
                     </li>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -91,47 +91,38 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
     </nav>
 
-	<div class="p-4" style="background-color: #3a62d8;">
+	<div class="p-3" style="background-color: #3a62d8;">
 		<div class="container d-flex flex-row align-items-center justify-content-between" style="color: white;">
-            <h1>Services</h1>
-			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > Services</h5>
+			<h1>Contact Us</h1>
+			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > Contact Us</h5>
 		</div>
 	</div>
 
-   <div class="container mt-5">
-		<div class="container">
-			<p>Lecylia IT and Software menawarkan berbagai spesialisasi untuk memberi dukungan saat ini dan masa depan kebutuhan teknologi untuk Klinik Gigi dan perusahan Anda. Kami akan memberi dukungan kepada para dokter gigi untuk membangun Digital Dental Clinic dengan teknologi masa depan yang dapat membuat Klinik gigi anda maju dan berkembang.</p>
-            <p style="font-weight:bolder; font-size:20px; color: blue;">Spesialisasi Kami :</p>
-            <div class="service ml-5" >
-                <div class="container d-flex flex-wrap justify-content-between" style="color: grey;">
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/it-and-software.jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/dental-imaging.jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/software-developer.jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                    <div class="anggota d-flex flex-column align-items-center m-5">
-                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
-                    </div>
-                </div>
-            </div>
-            <p>Best Regards,</p>
-			<p><b>Lecylia IT and Software</b></p>
-		</div>
-   </div>
+  
+  <br>
 
+    <div class="container-md">
+        <div class="container-md">
+            <div class="container-md text-center">
+                <img src="./images/cs.jpg" alt="" style="width: 600px; height: auto"> 
+            </div>
+            <br>
+            <div class="container" style="font-size:30px;">
+            <p><b>Lecylia IT and Software</b></p>
+            </div>
+            <div class="container" style="font-size:15px;">
+                <p> Inti Permata Regency Block F-05, Sapen, Mojolaban, Sukoharjo, Solo</p>
+            </div>
+            <div class="container" style="font-size:15px;">
+                <p> Telp/Sms/WA : 087-836-854-906 </p>
+            </div>
+            <div class="container" style="font-size:15px;">
+                <p> Email : customer_service@lecylia.com | lecyliadentalit@gmail.com </p>
+            </div>
+            <p><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15819.655075480883!2d110.906277!3d-7.584365!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d02feca281bad5b!2sLecylia+IT+and+Software!5e0!3m2!1sid!2s!4v1484298664562" width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>&nbsp;</p>
+        </div>
+   </div><br><br>
 
     <footer style="display:flex; background-color:#070707; justify-content:space-between; font-size:12px;">
         <div class="d-flex flex-row justify-content-between m-5">
