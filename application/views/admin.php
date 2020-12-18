@@ -93,24 +93,31 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 	<div class="p-3" style="background-color: #3a62d8;">
 		<div class="container d-flex flex-row align-items-center justify-content-between" style="color: white;">
-			<h1>About Us</h1>
-			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > About Us</h5>
+			<h1>Halaman Admin</h1>
+			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > Admin</h5>
 		</div>
 	</div>
 
    <div class="container">
 		<div class="container">
-			<div class="d-flex container">
-				<img src="./images/about-us.png" alt="">
+			<div class="d-flex container m-5">
+				<h1>Admin Pages</h1>
 			</div>
-			<p>Welcome to <b>Lecylia IT and Software.</b></p>
-			<p>Terimakasih sudah mengunjungi website resmi kami. Berikut sedikit perjalanan kami sebagai perusahaan di bidang IT dan Software dengan berbagai pengalaman yang kami peroleh.</p>
-			<p>Kami adalah perusahaan yang bergerak dalam bidang IT dan Software yang sudah mempunyai pengalaman sejak tahun 2007. Berawal menjadi Tim IT di perusahaan Textile terbesar se Jawa-Bali, Kami semakin mempunyai pengalaman yang sangat cukup di dunia IT, jaringan, dan maintenance komputer.</p>
-			<p>Ditahun 2009 Kami menjadi Guru IT dan Robotic di salah satu Sekolah International di Solo, menjadikan wawasan kami tentang dunia IT semakin luas dan bukan hanya di komputer dan jaringan saja, melainkan di dunia Design Grafis dan Robotic yang mana tidak semua orang IT memiliki ilmu ini.</p>
-			<p>Pada tahun 2011 kami mulai membuka usaha sendiri yang bergerak dibidang IT dan Software. dan kami menamakan perusahaan kami Lecylia IT and Software. Mulai dari sini, semua klient-klient kami yang dulu pernah menggunakan jasa kami dan mengetahui kami, mereka mulai menggunakan jasa kami untuk mengcover di bidang IT dan Software diperusahaan mereka.</p>
-			<p>Kami membuka usaha kerjasama bagi perusahaan yang membutuhkan IT support dan pembuatan software. Kami tunggu kerjasamanya.</p>
-			<p>Best Regards,</p>
-			<p><b>Lecylia IT and Software</b></p>
+			<form class="mb-5">
+                <div class="mb-3">
+                    <label for="exampleInputEmailID" class="form-label">ID</label>
+                    <input type="text" class="form-control" id="id">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputNama" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="nama">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputJabatan" class="form-label">Jabatan</label>
+                    <input type="text" class="form-control" id="jabatan">
+                </div>
+                <button type="submit" class="btn btn-primary">ubah</button>
+            </form>
 		</div>
    </div>
 
@@ -123,14 +130,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <a href="mailto:hege@example.com" style="color: #abababab;">Design and Developed by KELOMPOK TUBES</a>
         </div>
     </footer>
-   
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <script>
-        $('.carousel').carousel({
-            interval: 1000
-        })
-    </script>
 
     <script src="https://kit.fontawesome.com/e730ef9261.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

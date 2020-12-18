@@ -61,13 +61,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('home') ?>">Home</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('about') ?>">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('cdental') ?>">Cdental</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="<?= base_url('services') ?>">Services</a>
                     </li>
                     <li class="nav-item">
@@ -91,25 +91,43 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
     </nav>
 
-	<div class="p-3" style="background-color: #3a62d8;">
+	<div class="p-4" style="background-color: #3a62d8;">
 		<div class="container d-flex flex-row align-items-center justify-content-between" style="color: white;">
-			<h1>About Us</h1>
-			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > About Us</h5>
+            <h1>Services</h1>
+			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > Services</h5>
 		</div>
 	</div>
 
-   <div class="container">
+   <div class="container mt-5">
 		<div class="container">
-			<div class="d-flex container">
-				<img src="./images/about-us.png" alt="">
-			</div>
-			<p>Welcome to <b>Lecylia IT and Software.</b></p>
-			<p>Terimakasih sudah mengunjungi website resmi kami. Berikut sedikit perjalanan kami sebagai perusahaan di bidang IT dan Software dengan berbagai pengalaman yang kami peroleh.</p>
-			<p>Kami adalah perusahaan yang bergerak dalam bidang IT dan Software yang sudah mempunyai pengalaman sejak tahun 2007. Berawal menjadi Tim IT di perusahaan Textile terbesar se Jawa-Bali, Kami semakin mempunyai pengalaman yang sangat cukup di dunia IT, jaringan, dan maintenance komputer.</p>
-			<p>Ditahun 2009 Kami menjadi Guru IT dan Robotic di salah satu Sekolah International di Solo, menjadikan wawasan kami tentang dunia IT semakin luas dan bukan hanya di komputer dan jaringan saja, melainkan di dunia Design Grafis dan Robotic yang mana tidak semua orang IT memiliki ilmu ini.</p>
-			<p>Pada tahun 2011 kami mulai membuka usaha sendiri yang bergerak dibidang IT dan Software. dan kami menamakan perusahaan kami Lecylia IT and Software. Mulai dari sini, semua klient-klient kami yang dulu pernah menggunakan jasa kami dan mengetahui kami, mereka mulai menggunakan jasa kami untuk mengcover di bidang IT dan Software diperusahaan mereka.</p>
-			<p>Kami membuka usaha kerjasama bagi perusahaan yang membutuhkan IT support dan pembuatan software. Kami tunggu kerjasamanya.</p>
-			<p>Best Regards,</p>
+			<p>Lecylia IT and Software menawarkan berbagai spesialisasi untuk memberi dukungan saat ini dan masa depan kebutuhan teknologi untuk Klinik Gigi dan perusahan Anda. Kami akan memberi dukungan kepada para dokter gigi untuk membangun Digital Dental Clinic dengan teknologi masa depan yang dapat membuat Klinik gigi anda maju dan berkembang.</p>
+            <p style="font-weight:bolder; font-size:20px; color: blue;">Spesialisasi Kami :</p>
+            <div class="service ml-5" >
+                <div class="container d-flex flex-wrap justify-content-between" style="color: grey;">
+                    <div class="anggota d-flex flex-column align-items-center m-5">
+                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
+                    </div>
+                    <div class="anggota d-flex flex-column align-items-center m-5">
+                        <img src="./images/it-and-software.jpg" alt="" style="width: 150px; height: auto;">
+                    </div>
+                    <div class="anggota d-flex flex-column align-items-center m-5">
+                        <img src="./images/dental-imaging.jpg" alt="" style="width: 150px; height: auto;">
+                    </div>
+                    <div class="anggota d-flex flex-column align-items-center m-5">
+                        <img src="./images/software-developer.jpg" alt="" style="width: 150px; height: auto;">
+                    </div>
+                    <div class="anggota d-flex flex-column align-items-center m-5">
+                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
+                    </div>
+                    <div class="anggota d-flex flex-column align-items-center m-5">
+                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
+                    </div>
+                    <div class="anggota d-flex flex-column align-items-center m-5">
+                        <img src="./images/Dental-IT (1).jpg" alt="" style="width: 150px; height: auto;">
+                    </div>
+                </div>
+            </div>
+            <p>Best Regards,</p>
 			<p><b>Lecylia IT and Software</b></p>
 		</div>
    </div>

@@ -59,9 +59,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <span class="mr-4">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('home') ?>">Home</a>
+                        <a class="nav-link" href="<?= base_url('home') ?>">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('about') ?>">About Us</a>
                     </li>
                     <li class="nav-item">
@@ -73,13 +73,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('product') ?>">Product</a>
                     </li>
-                    <li class="nav-item">
+					<li class="nav-item">
                         <a class="nav-link" href="<?= base_url('support') ?>">Support</a>
                     </li>
 					<li class="nav-item">
                         <a class="nav-link" href="<?= base_url('portofolio') ?>">Portofolio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="<?= base_url('contact_us') ?>">Contact Us</a>
                     </li>
                     <form class="form-inline my-2 my-lg-0">
@@ -93,27 +93,36 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 	<div class="p-3" style="background-color: #3a62d8;">
 		<div class="container d-flex flex-row align-items-center justify-content-between" style="color: white;">
-			<h1>About Us</h1>
-			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > About Us</h5>
+			<h1>Contact Us</h1>
+			<h5><a href="<?= base_url('home') ?>" style="color: white;"> Lecylia IT and Software</a> > Contact Us</h5>
 		</div>
 	</div>
 
-   <div class="container">
-		<div class="container">
-			<div class="d-flex container">
-				<img src="./images/about-us.png" alt="">
-			</div>
-			<p>Welcome to <b>Lecylia IT and Software.</b></p>
-			<p>Terimakasih sudah mengunjungi website resmi kami. Berikut sedikit perjalanan kami sebagai perusahaan di bidang IT dan Software dengan berbagai pengalaman yang kami peroleh.</p>
-			<p>Kami adalah perusahaan yang bergerak dalam bidang IT dan Software yang sudah mempunyai pengalaman sejak tahun 2007. Berawal menjadi Tim IT di perusahaan Textile terbesar se Jawa-Bali, Kami semakin mempunyai pengalaman yang sangat cukup di dunia IT, jaringan, dan maintenance komputer.</p>
-			<p>Ditahun 2009 Kami menjadi Guru IT dan Robotic di salah satu Sekolah International di Solo, menjadikan wawasan kami tentang dunia IT semakin luas dan bukan hanya di komputer dan jaringan saja, melainkan di dunia Design Grafis dan Robotic yang mana tidak semua orang IT memiliki ilmu ini.</p>
-			<p>Pada tahun 2011 kami mulai membuka usaha sendiri yang bergerak dibidang IT dan Software. dan kami menamakan perusahaan kami Lecylia IT and Software. Mulai dari sini, semua klient-klient kami yang dulu pernah menggunakan jasa kami dan mengetahui kami, mereka mulai menggunakan jasa kami untuk mengcover di bidang IT dan Software diperusahaan mereka.</p>
-			<p>Kami membuka usaha kerjasama bagi perusahaan yang membutuhkan IT support dan pembuatan software. Kami tunggu kerjasamanya.</p>
-			<p>Best Regards,</p>
-			<p><b>Lecylia IT and Software</b></p>
-		</div>
-   </div>
+  
+  <br>
 
+    <div class="container-md">
+        <div class="container-md">
+            <div class="container-md text-center">
+                <img src="./images/cs.jpg" alt="" style="width: 600px; height: auto"> 
+            </div>
+            <br>
+            <div class="container" style="font-size:30px;">
+            <p><b>Lecylia IT and Software</b></p>
+            </div>
+            <div class="container" style="font-size:15px;">
+                <p> Inti Permata Regency Block F-05, Sapen, Mojolaban, Sukoharjo, Solo</p>
+            </div>
+            <div class="container" style="font-size:15px;">
+                <p> Telp/Sms/WA : 087-836-854-906 </p>
+            </div>
+            <div class="container" style="font-size:15px;">
+                <p> Email : customer_service@lecylia.com | lecyliadentalit@gmail.com </p>
+            </div>
+            <p><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15819.655075480883!2d110.906277!3d-7.584365!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d02feca281bad5b!2sLecylia+IT+and+Software!5e0!3m2!1sid!2s!4v1484298664562" width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+            <p>&nbsp;</p>
+        </div>
+   </div><br><br>
 
     <footer style="display:flex; background-color:#070707; justify-content:space-between; font-size:12px;">
         <div class="d-flex flex-row justify-content-between m-5">
