@@ -10,9 +10,10 @@ class Home extends CI_Controller {
 	
 	public function index()
 	{
-		$this->load->view('home');
-		$data["karyawan"] = $this->Tabel_model->getAll(); 
-		$this->load->view("admin/karyawan/list", $data);
+
+		$data["karyawan"] = $this->Tabel_model->getAll();
+		$this->load->view('home',$data); 
+		//$this->load->view("admin/karyawan/list", $data);
 	}
 
 	public function add()
@@ -27,7 +28,7 @@ class Home extends CI_Controller {
 			$this->session->set_flashdata('Success', 'Berhasil Disimpan');
 		}
 
-		%tis->load->view("admin/karyawan/new_form");
+		$this->load->view("admin/karyawan/new_form");
 	}
 
 	public function edit($id = null)
@@ -54,7 +55,7 @@ class Home extends CI_Controller {
 	{
 		if (!isset($id)) show_404();
 
-		if ($this->Tabel-model->delete()($id))
+		if ($this->Tabel_model->delete()($id))
 		{
 			redirect(site_url('admin/karyawan'));
 		}

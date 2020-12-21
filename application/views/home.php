@@ -196,12 +196,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="service ml-5" style="font-weight:bolder; font-size:20px; color: blue;">
         <p>The Team</p>
         <div class="container d-flex flex-wrap justify-content-between" style="color: grey;">
+            <?php foreach ($karyawan as $k) :?> 
             <div class="anggota d-flex flex-column align-items-center">
                 <img src="./images/Alfonus.jpg" alt="" style="width: 250px; height: auto;">
-                <h4>Alfonus Oky, S.Kom</h4>
-                <p style="font-size: 13px; font-weight: lighter;">Founder and CEO</p>
+                <h4> <?= $k['nama_karyawan']?> </h4>
+                <p style="font-size: 13px; font-weight: lighter;"> <?= $k['posisi_karyawan']?> </p>
             </div>
-            <div class="anggota d-flex flex-column align-items-center">
+        <?php endforeach ;?>
+            <!-- <div class="anggota d-flex flex-column align-items-center">
                 <img src="./images/Caecilia.jpg" alt="" style="width: 250px; height: auto;">
                 <h4>Caecilia Novie, S.Kom</h4>
                 <p style="font-size: 13px; font-weight: lighter;">CO Founder and Administration</p>
@@ -245,7 +247,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="./images/Yeremia.jpg" alt="" style="width: 250px; height: auto;">
                 <h4>Yeremia Miliano</h4>
                 <p style="font-size: 13px; font-weight: lighter;">Dental IT Support and Networking</p>
-            </div>
+            </div> -->
         </div>
     </div>
 

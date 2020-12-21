@@ -103,18 +103,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			<div class="d-flex container m-5">
 				<h1>Admin Pages</h1>
 			</div>
-			<form class="mb-5">
+			<form method="POST" action="Admin/add_data" class="mb-5">
                 <div class="mb-3">
-                    <label for="exampleInputEmailID" class="form-label">ID</label>
-                    <input type="text" class="form-control" id="id">
+                    <label for="exampleInputEmailID" class="form-label">Foto</label>
+                    <input type="file" class="form-control" id="foto_karyawan" name="foto_karyawan">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputNama" class="form-label">Nama</label>
-                    <input type="text" class="form-control" id="nama">
+                    <input type="text" class="form-control" id="nama" name="nama_karyawan">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputJabatan" class="form-label">Jabatan</label>
-                    <input type="text" class="form-control" id="jabatan">
+                    <input type="text" class="form-control" id="jabatan" name="posisi_karyawan">
                 </div>
                 <button type="submit" class="btn btn-primary">ubah</button>
             </form>
