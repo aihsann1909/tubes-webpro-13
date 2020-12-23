@@ -116,7 +116,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <label for="exampleInputJabatan" class="form-label">Jabatan</label>
                     <input type="text" class="form-control" id="jabatan" name="posisi_karyawan">
                 </div>
-                <button type="submit" class="btn btn-primary">ubah</button>
+                <button type="submit" class="btn btn-primary">Tambah</button>
+                <button type="submit" class="btn btn-warning">Update</button>
+                <button type="submit" class="btn btn-danger">Delete</button>
             </form>
 		</div>
    </div>
